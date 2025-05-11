@@ -1,7 +1,7 @@
 import re
 import os
 
-payload_file = 'icmp_payload.txt'
+payload_file = 'icmp_payload.txt' # tshark -r ququerer.pcap -Y "icmp" -T fields -e data.data > icmp_payload.txt          
 output_dir = 'png_files'
 png_signature = b'\x89PNG\r\n\x1a\n'
 
