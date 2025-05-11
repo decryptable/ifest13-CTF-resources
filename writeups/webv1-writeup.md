@@ -26,7 +26,7 @@ Hanya dapat diakses jika `request.remote_addr == '127.0.0.1'`, alias hanya dari 
 
 username=adminuser
 password=adminpass
-is\_admin=1
+is_admin=1
 
 ```
 
