@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Fetcher</title>
+</head>
+<body>
+    <h1>Admin Fetcher</h1>
+
+    <form method="POST">
+        URL: <input type="text" name="url" required /><br>
+        <input type="submit" value="Fetch" />
+    </form>
+
+    {% if result %}
+        <h2>Fetched Content:</h2>
+        <pre>{{ result }}</pre>
+    {% endif %}
+</body>
+</html>
